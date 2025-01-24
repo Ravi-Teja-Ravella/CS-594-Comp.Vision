@@ -22,6 +22,11 @@ with open('config.json') as config_file:
 endpoint = config["Endpoint"]
 key = config["Key"]
 
+#There are few more ways to declare the endpoint and the key. We can create a virtual environment and set the environment variables in the terminal.
+#But this is not optimal because we have to set the environment variables every time we open the terminal.
+
+#We can also encrypt the environment variables and decrypt them in the code. This is a more secure way to store the environment variables.
+#But the key will be different everytime we encrypt the environment variables. So, we have to change the key in the code every time we encrypt the environment variables.
 
 if not endpoint or not key:
     raise EnvironmentError("Azure credentials not set in environment variables")
