@@ -25,7 +25,10 @@ The changes that have been made are:
 
   *If using .env file*
   
-  Endpoint="Your_Azure_API_Endpoint" \n Key="Your_API_Key"
+  Endpoint="Your_Azure_API_Endpoint" 
+  
+  Key="Your_API_Key"
+
 
 
   *If using a .json file*
