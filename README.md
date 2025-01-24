@@ -23,7 +23,7 @@ The changes that have been made are:
 
 -In the file, you got to declare the variables like below:
 
-  #If using .env file
+  ## *If using .env file*
   
   Endpoint="Your_Azure_API_Endpoint" 
   
@@ -31,7 +31,7 @@ The changes that have been made are:
 
 
 
-  #*If using a .json file*
+  ## *If using a .json file*
   
   {
   
