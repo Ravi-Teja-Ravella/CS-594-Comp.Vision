@@ -21,6 +21,16 @@ The changes that have been made are:
 
 -Added a new config.json file (.env file can also be used) where the user's credentials can be stored (don't forget to use your own credentials buddy), and made sure this isn't committed to GitHub. To ensure this file isn’t committed to GitHub, inlcude the file in .gitignore. It is very important to double-check that this has been done.
 
+-In the file, you got to declare the variables like below:
+  *If using .env file*
+  Endpoint="Your_Azure_API_Endpoint"
+  Key="Your_API_Key"
+
+  *If using a .json file*
+  {
+    Endpoint:"Your_Azure_API_Endpoint",
+    Key:"Your_API_Key"
+  }
 
 ---
 
