@@ -19,9 +19,7 @@ The changes that have been made are:
 
 -Removed the hard coded variables in analyze.py
 
--Added a new config.json file (.env file can also be used) where the user's credentials can be stored, and made sure this isn't committed to GitHub
-
-To ensure this file isn’t committed to GitHub, it is included in .gitignore. It is very important to double-check that this has been done.
+-Added a new config.json file (.env file can also be used) where the user's credentials can be stored (don't forget to use your own credentials buddy), and made sure this isn't committed to GitHub. To ensure this file isn’t committed to GitHub, inlcude the file in .gitignore. It is very important to double-check that this has been done.
 
 
 ---
